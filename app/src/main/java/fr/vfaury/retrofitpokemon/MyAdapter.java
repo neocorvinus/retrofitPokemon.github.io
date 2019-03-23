@@ -12,6 +12,7 @@ import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     private List<Pokemon> values;
+    private final OnItemClickListener listener;
 
     public class ViewHolder extends RecyclerView.ViewHolder{
         // each data item is just a string in this case
@@ -39,8 +40,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         notifyItemRemoved(position);
     }
 
-    public MyAdapter(List<Pokemon> values){
+    public MyAdapter(List<Pokemon> values, OnItemClickListener listener){
         this.values = values;
+        this.listener = listener;
     }
 
     @NonNull
@@ -59,7 +61,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.txtHeader.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                remove(position);
+                listener.onItemClick(pokemon);
             }
         });
         holder.txtFooter.setText("Footer: "+ pokemon);
