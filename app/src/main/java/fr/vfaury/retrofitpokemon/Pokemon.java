@@ -1,6 +1,8 @@
 package fr.vfaury.retrofitpokemon;
 
-public class Pokemon {
+import java.util.ArrayList;
+
+public class Pokemon<abilities> {
     private String name;
     private String url;
 

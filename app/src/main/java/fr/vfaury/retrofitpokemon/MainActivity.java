@@ -1,5 +1,6 @@
 package fr.vfaury.retrofitpokemon;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent details = new Intent(MainActivity.this, Activity_Details.class);
                 Gson gson = new Gson();
                 details.putExtra("pokemon_key", gson.toJson(pokemon));
-                startActivity(details);
+                startActivity(details, ActivityOptions.makeSceneTransitionAnimation(MainActivity.this).toBundle());
             }
         });
         recyclerView.setAdapter(mAdapter);
