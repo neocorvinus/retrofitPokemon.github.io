@@ -7,8 +7,9 @@ Application Pokémon
  
 ## Présentation
 
-Projet
+Projet de 3eme année à l'ESIEA. 
 
+Il consiste à la programmation d'une application android sur Android Studio. Cette application doit récupéré les informations d'une API et les ordonner en une liste. Cette liste donne accès à des pages contenant les détails de l'élément de la liste choisi.
 
  
 ## Prérequis
