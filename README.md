@@ -11,18 +11,6 @@ Projet
 
 
  
-
-
-
- 
-Cette application affiche le pokédex du jeu pokémon et utilise l'API de Github permettant d'aller chercher un fichier sur le repo d'un utilisateur Github.
-
-
- 
-
-
-
- 
 ## Prérequis
 
 - Installation d'Android Studio
