@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface GerritAPI {
-    @GET("changes/")
-    Call<List<Change>> loadChanges(@Query("q") String status);
+    @GET("pokemon")
+    Call<RestPokemonResponse> getListPokemon();
 }

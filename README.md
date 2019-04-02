@@ -1,0 +1,33 @@
+Application Pokémon
+ 
+## Programmeur (32)
+
+-Vincent FAURY
+
+ 
+## Présentation
+
+Projet de 3eme année à l'ESIEA. 
+
+Il consiste à la programmation d'une application android sur Android Studio. Cette application doit récupéré les informations d'une API et les ordonner en une liste. Cette liste donne accès à des pages contenant les détails de l'élément de la liste choisi.
+
+ 
+## Prérequis
+
+- Installation d'Android Studio
+- Inscription sur Github
+
+ 
+## Consignes :
+ 
+- Deux écrans : Un écran avec une liste et un écran avec un détail de l’item.
+- Appel WebService à une API Rest.
+- Stockage des données en cache.
+- Architecture ( MVC ou MVP ou MVVM )
+- Gitflow
+- Animation entre écrans 
+- Notifications Push ( Firebase ) 
+
+
+
+ 
