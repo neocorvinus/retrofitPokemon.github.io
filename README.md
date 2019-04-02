@@ -1,6 +1,6 @@
-Application Pokémon
+Projet Android 3A 2019: Application Pokémon
  
-## Programmeur (32)
+## Programmeur (groupe 32)
 
 -Vincent FAURY
 
@@ -29,5 +29,10 @@ Il consiste à la programmation d'une application android sur Android Studio. Ce
 - Notifications Push ( Firebase ) 
 
 
+## Fonctionnalités
 
+### Premier écran
+
+Le premier écran affiche la liste des pokémons tirée de L'API PokéAPI.
+<img src="https://github.com/neocorvinus/retrofitPokemon.github.io/blob/master/Screenshot_20190401-230730.png" width="250"/>
  
