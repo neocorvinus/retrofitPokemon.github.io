@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
-
         controller = new Controller(this);
         controller.onCreate();
 

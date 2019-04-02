@@ -64,7 +64,6 @@ public class Controller {
 
             @Override
             public void onFailure(Call<RestPokemonResponse> call, Throwable t) {
-                Toast.makeText(activity, "Internet Error", Toast.LENGTH_LONG).show();
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(activity);
                 Gson gson = new Gson();
                 String json = prefs.getString("pokemon_cache", null);
