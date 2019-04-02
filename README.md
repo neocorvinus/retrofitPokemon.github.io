@@ -18,7 +18,7 @@ Il consiste à la programmation d'une application android sur Android Studio. Ce
 - Inscription sur Github
 
  
-## Consignes :
+## Consignes 
  
 - Deux écrans : Un écran avec une liste et un écran avec un détail de l’item.
 - Appel WebService à une API Rest.
@@ -28,6 +28,13 @@ Il consiste à la programmation d'une application android sur Android Studio. Ce
 - Animation entre écrans 
 - Notifications Push ( Firebase ) 
 
+## Objectifs accomplies
+
+- Deux écrans : Un écran avec une liste et un écran avec un détail de l’item.
+- Appel WebService à une API Rest.
+- Architecture ( MVC )
+- Gitflow
+- Animation entre écrans 
 
 ## Fonctionnalités
 
